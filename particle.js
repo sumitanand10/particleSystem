@@ -1,11 +1,11 @@
 var bubbles = [];
 
 function setup() {
-	frameRate(300);
+	frameRate(60);
 	// Creates Canvas
 	createCanvas(windowWidth, windowHeight);
 	//Genrates 100 Particles with random a & y
-	for (var i = 0; i <10; i++) {
+	for (var i = 0; i <60; i++) {
 		var x = random(width); 
 		var y = random(height);
 		bubbles[i] = new Bubble(x, y);
