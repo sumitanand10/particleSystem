@@ -5,7 +5,7 @@ function setup() {
 	// Creates Canvas
 	createCanvas(windowWidth, windowHeight);
 	//Genrates 100 Particles with random a & y
-	for (var i = 0; i < 60; i++) {
+	for (var i = 0; i < 100; i++) {
 		var x = random(width); 
 		var y = random(height);
 		bubbles[i] = new Bubble(x, y);
